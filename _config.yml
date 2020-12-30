@@ -4,13 +4,35 @@
 
 # Site
 title: livissnack
-subtitle: ''
+subtitle:
+  enable: true
+  # 打字效果
+  effect: true
+  # 循環或者只打字一次
+  loop: false
+  # source調用第三方服務
+  # source: false 關閉調用
+  # source: 1  調用搏天api的隨機語錄（簡體） https://api.btstu.cn/
+  # source: 2  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 3  調用一句網（簡體） http://yijuzhan.com/
+  # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: false
+  # 如果有英文逗號' , ',請使用轉義字元 &#44;
+  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
+  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
+  # 例如 ”&quotNever put off till tomorrow what you can do today&quot"
+  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  sub:
+    - 今日事&#44;今日畢
+    - Never put off till tomorrow what you can do today
+
 description: '人气网红 | 前端萌新 | 有猫 | 开源'
-keywords:
+keywords: [Vue, 面试, CSDN, ES6, React, 前端, PHP, Swoole, Nodejs, Docker]
 author: Livis Snack
 language: zh-CN
-timezone: 'PRC'
-
+timezone: Asia/Shanghai
+email: brucesnack@outlook.com
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://livissnack.me
@@ -94,6 +116,14 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      enable: true
+      options:
+        strict: false
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
