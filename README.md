@@ -5,4 +5,4 @@
 - 🔭 🕹Web Software Engineer — working on 🇨🇳 China Shenzhen.
 - 🚀 Creator of [Doniai Nav](https://nav.doniai.com), [Doniai Blog](https://www.doniai.com), [Doniai Live](https://live.doniai.com), [Hiphup Crawler](https://github.com/livissnack/hiphup-api), and more.
 - :hammer:  > Keep calm and coding.
-- :globe_with_meridians: https://livissnack.me
+- :globe_with_meridians: https://livissnack.com
