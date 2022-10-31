@@ -15,7 +15,7 @@
 
 #### 📱 Devices in use
 
-[![Iphone XR](https://img.shields.io/badge/Iphone%20XR-fd4900?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com/)
+[![Iphone 14](https://img.shields.io/badge/Iphone%2014-fd4900?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com/)
 [![Mac mini](https://img.shields.io/badge/Mac%20mini-e60012?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com/)
 [![Mac Pro m1](https://img.shields.io/badge/Mac%20Pro%20m1-e60012?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com/)
 
